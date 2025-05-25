@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: modified-petal-460216-h0
+    tables:
+      - name: raw_freelancer_invoices
+      - name: raw_freelancer_info

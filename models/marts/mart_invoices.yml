@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: mart_invoices
+    description: "Clean table of invoices for freelancers"
+    columns: 
+      - name: invoice_id
+        tests:
+          - not_null
+          - unique
+      - name: invoice_total
+        tests:
+          - not_null
